@@ -1,0 +1,26 @@
+package kostana.maksic;
+//Apsolutna vrednost negativnog broja je pozitivan broj, apsolutna vrednost pozitivnog broja je poztivan
+//broj, apsolutna vrednost nule je nula, |0|=0. Napisati program koji za unetu vrednost ispisuje njegovu
+//apsolutnu vrednost. Kreirati UML diagram za zadatu klasu.
+
+import static java.lang.Math.*;
+
+public class ApsolutnaVrednost {
+	
+	int broj;
+	
+	 ApsolutnaVrednost(int b){
+		broj = b;
+	}
+	
+	public int Broj(){
+		if (broj < 0)
+			return abs(broj);
+		return broj;
+	
+	}
+		
+}
+	
+
+
